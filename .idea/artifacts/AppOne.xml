@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AppOne">
+    <output-path>$PROJECT_DIR$/../out/artifacts/AppOne</output-path>
+    <root id="archive" name="AppOne.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="O2_Hello_JavaEE" />
+          <element id="module-output" name="O7_JSP" />
+          <element id="module-output" name="O6_POS_APP" />
+          <element id="module-output" name="O5_Mapping_Spec" />
+          <element id="module-output" name="O4_Contact_Form" />
+          <element id="module-output" name="O3_App" />
+          <element id="module-output" name="O9_JsonP" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="mysql-connector-j-8.1.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="O2_Hello_JavaEE/web/Web" />
+      <element id="javaee-facet-resources" facet="O7_JSP/web/Web" />
+      <element id="javaee-facet-resources" facet="O6_POS_APP/web/Web" />
+      <element id="javaee-facet-resources" facet="O5_Mapping_Spec/web/Web" />
+      <element id="javaee-facet-resources" facet="O4_Contact_Form/web/Web" />
+      <element id="javaee-facet-resources" facet="O3_App/web/Web" />
+    </root>
+  </artifact>
+</component>
